@@ -14,6 +14,6 @@ let root = ReactDOM.createRoot(document.querySelector('.container'));
 //     ])
 // ]);
 
-let parent = <h1>hello guys<spam>I am in spam</spam></h1>
+let parent = <h1>hello guys<spam>I am</spam></h1>
 
 root.render(parent);
