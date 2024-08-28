@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
 let root = ReactDOM.createRoot(document.querySelector('.container'));
 
@@ -15,14 +15,20 @@ let root = ReactDOM.createRoot(document.querySelector('.container'));
 // ]);
 
 //let parent = <h1>hello guys<spam>I am in span</spam></h1>
+const recatElem = <h3> This is react elemnet</h3>
 
-const Title = () => (<h1>This is Title</h1>);
+const Title = function() {
+  return (<h1>This is Title</h1>);
+} 
 
 const HeadingComponent = ()=>(
   <div className='container'>
     <Title/>
+    <Title></Title>
+    {Title()}
+    {recatElem}
     <h2>In the Heading</h2>
   </div>
 );
 
-root.render(parent);
+root.render(<HeadingComponent/>);
