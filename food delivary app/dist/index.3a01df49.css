@@ -1,2 +1,27 @@
+.headerContainer {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
 
+.logo {
+  width: 150px;
+  height: 100px;
+}
+
+.navBar {
+  flex-grow: 2;
+}
+
+.navList {
+  justify-content: space-around;
+  list-style-type: none;
+  display: flex;
+}
+
+.navItem {
+  text-transform: capitalize;
+  padding: 15px 0 0;
+  font-size: 1.3rem;
+}
 /*# sourceMappingURL=index.3a01df49.css.map */

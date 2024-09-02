@@ -1,0 +1,31 @@
+
+
+.headerContainer{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo{
+    height: 100px;
+    width: 150px;
+}
+
+.navBar{
+    flex-grow: 2;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.navList{
+    display: flex;
+    justify-content: space-around;
+   list-style-type: none;
+}
+
+.navItem{
+   text-transform: capitalize;
+   padding: 15px 0 0;
+   font-size: 1.3rem;
+}
