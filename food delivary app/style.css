@@ -29,3 +29,27 @@
    padding: 15px 0 0;
    font-size: 1.3rem;
 }
+
+.resContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resCard{
+    background-color: #f0f0f0;
+    /* display: flex; */
+    width: 200px;
+    margin: 10px;
+    padding: 0 5px ;
+}
+
+.foodImg{
+  width: 90%;
+  height: 160px;
+  margin: 5px;
+}
+
+.cuisine{
+    word-wrap: break-word;
+    /* overflow-wrap: break-word; */
+}
